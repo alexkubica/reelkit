@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "title": "סיפור ברור",
+  "width": 720,
+  "height": 1280,
+  "fps": 30,
+  "background": "#101827",
+  "caption": {
+    "position": 0.5,
+    "size": 54,
+    "color": "#ffffff",
+    "highlight": "#99f3c4"
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "image": "images/story.webp",
+      "text": "מתחילים ברעיון אחד ברור.",
+      "phrases": [
+        "מתחילים ברעיון",
+        "אחד ברור."
+      ],
+      "duration": 3.2,
+      "alignment": "estimated",
+      "words": [
+        {
+          "text": "מתחילים",
+          "start": 0.15,
+          "end": 1.1125
+        },
+        {
+          "text": "ברעיון",
+          "start": 1.1125,
+          "end": 1.9375
+        },
+        {
+          "text": "אחד",
+          "start": 1.9375,
+          "end": 2.35
+        },
+        {
+          "text": "ברור.",
+          "start": 2.35,
+          "end": 2.9
+        }
+      ]
+    },
+    {
+      "id": "scene-2",
+      "image": "images/visuals.webp",
+      "text": "נותנים לאיורים לספר את הסיפור.",
+      "phrases": [
+        "נותנים לאיורים",
+        "לספר את הסיפור."
+      ],
+      "duration": 3.2,
+      "alignment": "estimated",
+      "words": [
+        {
+          "text": "נותנים",
+          "start": 0.15,
+          "end": 0.81
+        },
+        {
+          "text": "לאיורים",
+          "start": 0.81,
+          "end": 1.58
+        },
+        {
+          "text": "לספר",
+          "start": 1.58,
+          "end": 2.02
+        },
+        {
+          "text": "את",
+          "start": 2.02,
+          "end": 2.24
+        },
+        {
+          "text": "הסיפור.",
+          "start": 2.24,
+          "end": 2.9
+        }
+      ]
+    },
+    {
+      "id": "scene-3",
+      "image": "images/clarity.webp",
+      "text": "משאירים את המילים במרכז.",
+      "phrases": [
+        "משאירים את",
+        "המילים במרכז."
+      ],
+      "duration": 3.2,
+      "alignment": "estimated",
+      "words": [
+        {
+          "text": "משאירים",
+          "start": 0.15,
+          "end": 1.1125
+        },
+        {
+          "text": "את",
+          "start": 1.1125,
+          "end": 1.3875
+        },
+        {
+          "text": "המילים",
+          "start": 1.3875,
+          "end": 2.2125
+        },
+        {
+          "text": "במרכז.",
+          "start": 2.2125,
+          "end": 2.9
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "title": "A clear story",
+  "width": 720,
+  "height": 1280,
+  "fps": 30,
+  "background": "#101827",
+  "caption": {
+    "position": 0.5,
+    "size": 54,
+    "color": "#ffffff",
+    "highlight": "#99f3c4"
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "image": "images/story.webp",
+      "text": "Give your story a clear goal.",
+      "phrases": [
+        "Give your story",
+        "a clear goal."
+      ],
+      "duration": 4.0,
+      "alignment": "estimated",
+      "words": [
+        {
+          "text": "Give",
+          "start": 0.15,
+          "end": 0.7674
+        },
+        {
+          "text": "your",
+          "start": 0.7674,
+          "end": 1.3848
+        },
+        {
+          "text": "story",
+          "start": 1.3848,
+          "end": 2.1565
+        },
+        {
+          "text": "a",
+          "start": 2.1565,
+          "end": 2.3109
+        },
+        {
+          "text": "clear",
+          "start": 2.3109,
+          "end": 3.0826
+        },
+        {
+          "text": "goal.",
+          "start": 3.0826,
+          "end": 3.7
+        }
+      ]
+    },
+    {
+      "id": "scene-2",
+      "image": "images/visuals.webp",
+      "text": "Let the visuals do the explaining.",
+      "phrases": [
+        "Let the visuals",
+        "do the explaining."
+      ],
+      "duration": 4.0,
+      "alignment": "estimated",
+      "words": [
+        {
+          "text": "Let",
+          "start": 0.15,
+          "end": 0.5304
+        },
+        {
+          "text": "the",
+          "start": 0.5304,
+          "end": 0.9107
+        },
+        {
+          "text": "visuals",
+          "start": 0.9107,
+          "end": 1.7982
+        },
+        {
+          "text": "do",
+          "start": 1.7982,
+          "end": 2.0518
+        },
+        {
+          "text": "the",
+          "start": 2.0518,
+          "end": 2.4321
+        },
+        {
+          "text": "explaining.",
+          "start": 2.4321,
+          "end": 3.7
+        }
+      ]
+    },
+    {
+      "id": "scene-3",
+      "image": "images/clarity.webp",
+      "text": "Keep every word easy to follow.",
+      "phrases": [
+        "Keep every word",
+        "easy to follow."
+      ],
+      "duration": 4.0,
+      "alignment": "estimated",
+      "words": [
+        {
+          "text": "Keep",
+          "start": 0.15,
+          "end": 0.718
+        },
+        {
+          "text": "every",
+          "start": 0.718,
+          "end": 1.428
+        },
+        {
+          "text": "word",
+          "start": 1.428,
+          "end": 1.996
+        },
+        {
+          "text": "easy",
+          "start": 1.996,
+          "end": 2.564
+        },
+        {
+          "text": "to",
+          "start": 2.564,
+          "end": 2.848
+        },
+        {
+          "text": "follow.",
+          "start": 2.848,
+          "end": 3.7
+        }
+      ]
+    }
+  ]
+}

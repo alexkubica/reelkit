@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reelkit-studio"
+version = "0.1.0"
+description = "Portable, agent-friendly illustrated reels with centered word-synchronized captions."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE", "src/reelkit/assets/fonts/OFL.txt"]
+authors = [{name = "ReelKit contributors"}]
+keywords = ["video", "reels", "captions", "hebrew", "agents", "ffmpeg"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Topic :: Multimedia :: Video",
+]
+dependencies = [
+  "Pillow>=10.4,<13",
+  "imageio-ffmpeg>=0.6,<0.7",
+  "python-bidi>=0.6,<0.7",
+]
+
+[project.optional-dependencies]
+voice = ["edge-tts>=7.2,<8"]
+dev = ["pytest>=8,<9", "build>=1.2,<2", "PyYAML>=6,<7"]
+
+[project.scripts]
+reelkit = "reelkit.cli:main"
+
+[project.urls]
+Homepage = "https://alexkubica.github.io/reelkit/"
+Repository = "https://github.com/alexkubica/reelkit"
+Issues = "https://github.com/alexkubica/reelkit/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+reelkit = ["assets/fonts/*", "assets/demo/*.json", "assets/demo/images/*", "assets/demo/ASSETS.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
