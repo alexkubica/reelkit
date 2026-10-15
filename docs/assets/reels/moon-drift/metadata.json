@@ -1,0 +1,21 @@
+{
+  "id": "moon-drift",
+  "title": "The Moon Is Ghosting Earth",
+  "category": "Science",
+  "description": "The slowest breakup in the solar system: lasers, tides, and a Moon asking for a little space.",
+  "duration": 26.1,
+  "language": "en",
+  "voice": "en-US-AndrewMultilingualNeural",
+  "scenes": 5,
+  "skill": "create-reel",
+  "sources": [
+    {
+      "title": "NASA JPL: The Apollo Experiment That Keeps on Giving",
+      "url": "https://www.jpl.nasa.gov/news/the-apollo-experiment-that-keeps-on-giving/"
+    },
+    {
+      "title": "NASA: Laser Beams Reflected Between Earth and Moon Boost Science",
+      "url": "https://www.nasa.gov/missions/lro/laser-beams-reflected-between-earth-and-moon-boost-science/"
+    }
+  ]
+}

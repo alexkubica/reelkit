@@ -1,0 +1,12 @@
+{
+  "id": "last-umbrella",
+  "title": "The Last Umbrella",
+  "category": "Fiction",
+  "description": "An umbrella rains on the inside. A tiny cloud just wants its house back.",
+  "duration": 32.3,
+  "language": "en",
+  "voice": "en-GB-RyanNeural",
+  "scenes": 6,
+  "skill": "create-reel",
+  "sources": []
+}

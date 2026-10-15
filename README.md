@@ -2,7 +2,7 @@
 
 <h1 align="center">ReelKit</h1>
 <p align="center"><strong>Short videos. Clear stories.</strong><br>Portable tools and agent guidance for illustrated reels with readable, centered captions.</p>
-<p align="center"><a href="https://alexkubica.github.io/reelkit/">Website & demo</a> · <a href="#quickstart">Quickstart</a> · <a href="docs/schema.md">Project format</a> · <a href=".agents/skills/create-reel/SKILL.md">Agent skill</a></p>
+<p align="center"><a href="https://alexkubica.github.io/reelkit/">Website & demo</a> · <a href="https://alexkubica.github.io/reelkit/library.html">Reel library</a> · <a href="#quickstart">Quickstart</a> · <a href="docs/schema.md">Project format</a> · <a href=".agents/skills/create-reel/SKILL.md">Agent skill</a></p>
 
 [![See the illustrated demo](docs/assets/poster.jpg)](https://alexkubica.github.io/reelkit/)
 
@@ -11,6 +11,21 @@ ReelKit turns a small JSON project, local illustrations, and optional narration 
 The included example renders **offline and without an API key**. It is intentionally silent. AI research, image generation, and speech are separate authoring steps; the renderer never contacts an online service.
 
 The [website's featured reel](https://alexkubica.github.io/reelkit/) is **“Why does the poop emoji look like that?”**: an English comedy explainer made with the repository's [create-reel skill](.agents/skills/create-reel/SKILL.md) and portable renderer, using original illustrations, fresh English narration, and centered captions in the video. Play it using the standard video controls. The bundled starter remains a separate, reproducible offline example. See [featured reel credits](docs/assets/FEATURED-REEL.md).
+
+## The reel library
+
+[Watch the English reel library](https://alexkubica.github.io/reelkit/library.html): real narrated videos spanning history, science, programming, original fiction, and design. Each story follows the `create-reel` skill independently, with its own script, original artwork, voice direction, caption timings, draft review, and final export. Factual stories retain primary sources; invented stories are labelled Fiction.
+
+The library uses the browser's standard video controls, with English captions already in the picture. Category filters help you browse; starting one story pauses the others. Every reel has a direct MP4 download and public story credits.
+
+| Story | Category | Length |
+| --- | --- | --- |
+| [Mars vs. the Unit Mix-Up](https://alexkubica.github.io/reelkit/library.html#mars-metric) | History | 34s |
+| [The Moon Is Ghosting Earth](https://alexkubica.github.io/reelkit/library.html#moon-drift) | Science | 26s |
+| [The Deadlock Diner](https://alexkubica.github.io/reelkit/library.html#deadlock-diner) | Programming | 36s |
+| [The Shop That Sold Extra Minutes](https://alexkubica.github.io/reelkit/library.html#minute-shop) | Original fiction | 28s |
+| [The Last Umbrella](https://alexkubica.github.io/reelkit/library.html#last-umbrella) | Original fiction | 32s |
+| [Why does the poop emoji look like that?](https://alexkubica.github.io/reelkit/library.html#poop-emoji) | Design | 28s |
 
 ## What it does
 
@@ -145,10 +160,12 @@ python -m build
 
 GitHub Actions runs the test suite, including a small real render, on Linux, macOS, and Windows. Tests cover narration alignment, silent gaps, RTL text, path containment, output integrity, and CLI behavior. Full-resolution rendering can take several minutes on a CPU; use drafts during iteration.
 
-The website is plain HTML/CSS/JS in `docs/`. It has no build step, analytics, external fonts, or account integration. The included Pages workflow publishes that directory when GitHub Pages is configured to use GitHub Actions.
+The website is plain HTML/CSS/JS in `docs/`. It needs no build step to serve and has no analytics, external fonts, or account integration. The included Pages workflow publishes that directory when GitHub Pages is configured to use GitHub Actions.
+
+To extend the library, add the intended public MP4, poster, metadata, and credits under `docs/assets/reels/<story-id>/`, then add an English entry to [`docs/reels.json`](docs/reels.json). Regenerate the checked-in cards with `python scripts/build_library.py`; use `--check` to verify the catalog and assets without changing files. CI checks that the static library matches the catalog. Keep private working projects and raw voice files in ignored storage.
 
 ## Public-by-design
 
-Only source, openly distributable fonts, original example illustrations, and the public demo belong in this repository. Local environments, credentials, generated speech, personal projects, and ordinary video outputs are ignored. Review both staged files and asset rights before publishing your own material. See [security](SECURITY.md), [contributing](CONTRIBUTING.md), and [asset provenance](src/reelkit/assets/demo/ASSETS.md).
+Only source, openly distributable fonts, original example illustrations, and the intentionally published demo and library reels belong in this repository. Local environments, credentials, raw generated speech, personal projects, and ordinary video outputs are ignored. Review both staged files and asset rights before publishing your own material. See [security](SECURITY.md), [contributing](CONTRIBUTING.md), and [asset provenance](src/reelkit/assets/demo/ASSETS.md).
 
 Code and original example artwork: [MIT](LICENSE). Bundled Noto fonts: [SIL Open Font License](src/reelkit/assets/fonts/OFL.txt). Third-party services and FFmpeg distributions retain their own licenses and terms.

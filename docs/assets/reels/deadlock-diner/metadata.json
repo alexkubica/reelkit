@@ -1,0 +1,30 @@
+{
+  "id": "deadlock-diner",
+  "language": "en",
+  "scenes": 5,
+  "skill": "create-reel",
+  "title": "The Deadlock Diner",
+  "category": "Programming",
+  "description": "Two hungry robot chefs explain deadlock and how a consistent order of acquiring locks breaks circular wait.",
+  "voice": "en-US-GuyNeural",
+  "sources": [
+    {
+      "title": "Oracle Java Tutorials: Deadlock",
+      "url": "https://docs.oracle.com/javase/tutorial/essential/concurrency/deadlock.html"
+    },
+    {
+      "title": "Oracle Berkeley DB: Locks, Blocks, and Deadlocks",
+      "url": "https://docs.oracle.com/database/bdb181/html/gsg_txn/JAVA/blocking_deadlocks.html"
+    }
+  ],
+  "duration": 36.2,
+  "width": 720,
+  "height": 1280,
+  "fps": 30,
+  "format": "H.264 / AAC",
+  "captions": "Burned-in English",
+  "audio": {
+    "integratedLufs": -16.3,
+    "truePeakDbtp": -1.53
+  }
+}

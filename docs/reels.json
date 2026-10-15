@@ -1,0 +1,119 @@
+[
+  {
+    "id": "mars-metric",
+    "title": "Mars vs. the Unit Mix-Up",
+    "category": "History",
+    "description": "How a mismatch in thruster impulse units helped doom a Mars mission, and what software teams can learn.",
+    "duration": 33.8,
+    "language": "en",
+    "voice": "en-US-AndrewMultilingualNeural",
+    "scenes": 5,
+    "skill": "create-reel",
+    "sources": [
+      {
+        "title": "NASA/JPL: Mars Climate Orbiter Team Finds Likely Cause of Loss (September 30, 1999)",
+        "url": "https://www.jpl.nasa.gov/news/mars-climate-orbiter-team-finds-likely-cause-of-loss/"
+      },
+      {
+        "title": "NASA: Mars Climate Orbiter Mishap Investigation Board, Phase I report",
+        "url": "https://discovery.larc.nasa.gov/pdf_files/MCO_report_2.pdf"
+      },
+      {
+        "title": "NASA Science: Mars Climate Orbiter mission overview",
+        "url": "https://science.nasa.gov/mission/mars-climate-orbiter/"
+      }
+    ],
+    "video": "assets/reels/mars-metric/reel.mp4",
+    "poster": "assets/reels/mars-metric/poster.jpg",
+    "credits": "assets/reels/mars-metric/CREDITS.md"
+  },
+  {
+    "id": "moon-drift",
+    "title": "The Moon Is Ghosting Earth",
+    "category": "Science",
+    "description": "The slowest breakup in the solar system: lasers, tides, and a Moon asking for a little space.",
+    "duration": 26.1,
+    "language": "en",
+    "voice": "en-US-AndrewMultilingualNeural",
+    "scenes": 5,
+    "skill": "create-reel",
+    "sources": [
+      {
+        "title": "NASA JPL: The Apollo Experiment That Keeps on Giving",
+        "url": "https://www.jpl.nasa.gov/news/the-apollo-experiment-that-keeps-on-giving/"
+      },
+      {
+        "title": "NASA: Laser Beams Reflected Between Earth and Moon Boost Science",
+        "url": "https://www.nasa.gov/missions/lro/laser-beams-reflected-between-earth-and-moon-boost-science/"
+      }
+    ],
+    "video": "assets/reels/moon-drift/reel.mp4",
+    "poster": "assets/reels/moon-drift/poster.jpg",
+    "credits": "assets/reels/moon-drift/CREDITS.md"
+  },
+  {
+    "id": "deadlock-diner",
+    "title": "The Deadlock Diner",
+    "category": "Programming",
+    "description": "Two hungry robot chefs explain deadlock and how a consistent order of acquiring locks breaks circular wait.",
+    "duration": 36.2,
+    "language": "en",
+    "voice": "en-US-GuyNeural",
+    "scenes": 5,
+    "skill": "create-reel",
+    "sources": [
+      {
+        "title": "Oracle Java Tutorials: Deadlock",
+        "url": "https://docs.oracle.com/javase/tutorial/essential/concurrency/deadlock.html"
+      },
+      {
+        "title": "Oracle Berkeley DB: Locks, Blocks, and Deadlocks",
+        "url": "https://docs.oracle.com/database/bdb181/html/gsg_txn/JAVA/blocking_deadlocks.html"
+      }
+    ],
+    "video": "assets/reels/deadlock-diner/reel.mp4",
+    "poster": "assets/reels/deadlock-diner/poster.jpg",
+    "credits": "assets/reels/deadlock-diner/CREDITS.md"
+  },
+  {
+    "id": "minute-shop",
+    "title": "The Shop That Sold Extra Minutes",
+    "category": "Fiction",
+    "description": "A clockmaker sells extra minutes. A customer discovers what his tiny brass key actually changes.",
+    "duration": 27.8,
+    "language": "en",
+    "voice": "en-US-EmmaMultilingualNeural",
+    "scenes": 5,
+    "skill": "create-reel",
+    "sources": [],
+    "video": "assets/reels/minute-shop/reel.mp4",
+    "poster": "assets/reels/minute-shop/poster.jpg",
+    "credits": "assets/reels/minute-shop/CREDITS.md"
+  },
+  {
+    "id": "last-umbrella",
+    "title": "The Last Umbrella",
+    "category": "Fiction",
+    "description": "An umbrella rains on the inside. A tiny cloud just wants its house back.",
+    "duration": 32.3,
+    "language": "en",
+    "voice": "en-GB-RyanNeural",
+    "scenes": 6,
+    "skill": "create-reel",
+    "sources": [],
+    "video": "assets/reels/last-umbrella/reel.mp4",
+    "poster": "assets/reels/last-umbrella/poster.jpg",
+    "credits": "assets/reels/last-umbrella/CREDITS.md"
+  },
+  {
+    "id": "poop-emoji",
+    "title": "Why does the poop emoji look like that?",
+    "category": "Design",
+    "description": "A suspicious swirl, a confident dessert, and an unexpected design family tree.",
+    "duration": 28.4,
+    "language": "en",
+    "video": "assets/demo.mp4",
+    "poster": "assets/poster.jpg",
+    "credits": "assets/FEATURED-REEL.md"
+  }
+]

@@ -49,3 +49,6 @@ jobs:
       - name: Build distributions
         if: matrix.os == 'ubuntu-latest' && matrix.python == '3.12'
         run: python -m build
+      - name: Check the public reel catalog
+        if: matrix.os == 'ubuntu-latest' && matrix.python == '3.12'
+        run: python scripts/build_library.py --check

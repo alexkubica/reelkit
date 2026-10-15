@@ -35,6 +35,7 @@ projects/
 *.aiff
 *.srt
 !docs/assets/demo.mp4
+!docs/assets/reels/*/reel.mp4
 
 # Editor and local test artifacts.
 .idea/

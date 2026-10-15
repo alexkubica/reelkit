@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101713">
+  <meta name="description" content="A small library of illustrated English reels: surprising history, curious science, programming, and original tiny stories.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="The reel library — ReelKit">
+  <meta property="og:description" content="Space mishaps, code at a standstill, and a few impossible little worlds. Pick a story.">
+  <meta property="og:image" content="https://alexkubica.github.io/reelkit/assets/social-card.png">
+  <meta property="og:url" content="https://alexkubica.github.io/reelkit/library.html">
+  <link rel="icon" href="./assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css?v=library-1">
+  <link rel="stylesheet" href="./library.css?v=library-1">
+  <script src="./library.js?v=library-1" defer></script>
+  <title>The reel library — ReelKit</title>
+</head>
+<body class="library-page">
+  <a class="skip-link" href="#main">Skip to stories</a>
+  <header class="site-header shell">
+    <a class="wordmark" href="./" aria-label="ReelKit home"><img src="./assets/mark.svg" width="35" height="35" alt=""><span>reelkit<span class="wordmark-period">.</span></span></a>
+    <nav aria-label="Main navigation"><a href="./">The toolkit</a><a class="nav-github" href="https://github.com/alexkubica/reelkit">GitHub <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main class="shell" id="main">
+    <section class="library-intro" aria-labelledby="library-title">
+      <div><p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> THE REEL LIBRARY</p><h1 id="library-title">Small stories.<br><span>Big detours.</span></h1></div>
+      <div class="library-intro-copy"><p>A spacecraft gets its units wrong. Two robots wait forever for dinner. A tiny cloud goes looking for its umbrella.</p><p>History, science, code, and original fiction. Every reel in English. Pick a little world to get lost in.</p></div>
+    </section>
+    <section class="library-collection" aria-label="Browse the reels">
+      <div class="library-toolbar">
+        <div class="library-filters" id="library-filters" role="group" aria-label="Filter by category" hidden>
+<!-- reel-filters:start -->
+          <button type="button" data-category="all" aria-pressed="true">All stories</button>
+          <button type="button" data-category="History" aria-pressed="false">History</button>
+          <button type="button" data-category="Science" aria-pressed="false">Science</button>
+          <button type="button" data-category="Programming" aria-pressed="false">Programming</button>
+          <button type="button" data-category="Fiction" aria-pressed="false">Fiction</button>
+          <button type="button" data-category="Design" aria-pressed="false">Design</button>
+<!-- reel-filters:end -->
+        </div>
+        <p class="library-count" id="library-count" role="status" aria-live="polite">
+<!-- reel-summary:start -->
+          6 stories to get lost in
+<!-- reel-summary:end -->
+        </p>
+      </div>
+      <div class="reel-grid" id="reel-grid">
+<!-- reel-cards:start -->
+        <article class="reel-card" id="mars-metric" data-category="History">
+          <div class="reel-card-meta"><span class="reel-category">History</span><span aria-label="Duration: 34 seconds">0:34</span></div>
+          <video controls playsinline preload="metadata" poster="./assets/reels/mars-metric/poster.jpg?v=e036a464e5" aria-labelledby="title-mars-metric">
+            <source src="./assets/reels/mars-metric/reel.mp4?v=95b734f5bb" type="video/mp4">
+            Your browser cannot play this video. <a href="./assets/reels/mars-metric/reel.mp4?v=95b734f5bb">Download the MP4.</a>
+          </video>
+          <h2 id="title-mars-metric"><a href="#mars-metric">Mars vs. the Unit Mix-Up</a></h2>
+          <p class="reel-card-description">How a mismatch in thruster impulse units helped doom a Mars mission, and what software teams can learn.</p>
+          <p class="reel-card-error" hidden>The video couldn’t load. Try the MP4 download below.</p>
+          <div class="reel-card-links"><a href="./assets/reels/mars-metric/reel.mp4?v=95b734f5bb" download="mars-metric.mp4">Download MP4 <span aria-hidden="true">↓</span></a><a href="https://github.com/alexkubica/reelkit/blob/main/docs/assets/reels/mars-metric/CREDITS.md">Story &amp; credits <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="reel-card" id="moon-drift" data-category="Science">
+          <div class="reel-card-meta"><span class="reel-category">Science</span><span aria-label="Duration: 27 seconds">0:27</span></div>
+          <video controls playsinline preload="metadata" poster="./assets/reels/moon-drift/poster.jpg?v=044d8d978e" aria-labelledby="title-moon-drift">
+            <source src="./assets/reels/moon-drift/reel.mp4?v=f5e3c18922" type="video/mp4">
+            Your browser cannot play this video. <a href="./assets/reels/moon-drift/reel.mp4?v=f5e3c18922">Download the MP4.</a>
+          </video>
+          <h2 id="title-moon-drift"><a href="#moon-drift">The Moon Is Ghosting Earth</a></h2>
+          <p class="reel-card-description">The slowest breakup in the solar system: lasers, tides, and a Moon asking for a little space.</p>
+          <p class="reel-card-error" hidden>The video couldn’t load. Try the MP4 download below.</p>
+          <div class="reel-card-links"><a href="./assets/reels/moon-drift/reel.mp4?v=f5e3c18922" download="moon-drift.mp4">Download MP4 <span aria-hidden="true">↓</span></a><a href="https://github.com/alexkubica/reelkit/blob/main/docs/assets/reels/moon-drift/CREDITS.md">Story &amp; credits <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="reel-card" id="deadlock-diner" data-category="Programming">
+          <div class="reel-card-meta"><span class="reel-category">Programming</span><span aria-label="Duration: 37 seconds">0:37</span></div>
+          <video controls playsinline preload="metadata" poster="./assets/reels/deadlock-diner/poster.jpg?v=1e36d50405" aria-labelledby="title-deadlock-diner">
+            <source src="./assets/reels/deadlock-diner/reel.mp4?v=8ec40cab7e" type="video/mp4">
+            Your browser cannot play this video. <a href="./assets/reels/deadlock-diner/reel.mp4?v=8ec40cab7e">Download the MP4.</a>
+          </video>
+          <h2 id="title-deadlock-diner"><a href="#deadlock-diner">The Deadlock Diner</a></h2>
+          <p class="reel-card-description">Two hungry robot chefs explain deadlock and how a consistent order of acquiring locks breaks circular wait.</p>
+          <p class="reel-card-error" hidden>The video couldn’t load. Try the MP4 download below.</p>
+          <div class="reel-card-links"><a href="./assets/reels/deadlock-diner/reel.mp4?v=8ec40cab7e" download="deadlock-diner.mp4">Download MP4 <span aria-hidden="true">↓</span></a><a href="https://github.com/alexkubica/reelkit/blob/main/docs/assets/reels/deadlock-diner/CREDITS.md">Story &amp; credits <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="reel-card" id="minute-shop" data-category="Fiction">
+          <div class="reel-card-meta"><span class="reel-category">Fiction</span><span aria-label="Duration: 28 seconds">0:28</span></div>
+          <video controls playsinline preload="metadata" poster="./assets/reels/minute-shop/poster.jpg?v=c8210e5e09" aria-labelledby="title-minute-shop">
+            <source src="./assets/reels/minute-shop/reel.mp4?v=bd8f4835da" type="video/mp4">
+            Your browser cannot play this video. <a href="./assets/reels/minute-shop/reel.mp4?v=bd8f4835da">Download the MP4.</a>
+          </video>
+          <h2 id="title-minute-shop"><a href="#minute-shop">The Shop That Sold Extra Minutes</a></h2>
+          <p class="reel-card-description">A clockmaker sells extra minutes. A customer discovers what his tiny brass key actually changes.</p>
+          <p class="reel-card-error" hidden>The video couldn’t load. Try the MP4 download below.</p>
+          <div class="reel-card-links"><a href="./assets/reels/minute-shop/reel.mp4?v=bd8f4835da" download="minute-shop.mp4">Download MP4 <span aria-hidden="true">↓</span></a><a href="https://github.com/alexkubica/reelkit/blob/main/docs/assets/reels/minute-shop/CREDITS.md">Story &amp; credits <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="reel-card" id="last-umbrella" data-category="Fiction">
+          <div class="reel-card-meta"><span class="reel-category">Fiction</span><span aria-label="Duration: 33 seconds">0:33</span></div>
+          <video controls playsinline preload="metadata" poster="./assets/reels/last-umbrella/poster.jpg?v=bda8f7a2c4" aria-labelledby="title-last-umbrella">
+            <source src="./assets/reels/last-umbrella/reel.mp4?v=f0e9b6bb40" type="video/mp4">
+            Your browser cannot play this video. <a href="./assets/reels/last-umbrella/reel.mp4?v=f0e9b6bb40">Download the MP4.</a>
+          </video>
+          <h2 id="title-last-umbrella"><a href="#last-umbrella">The Last Umbrella</a></h2>
+          <p class="reel-card-description">An umbrella rains on the inside. A tiny cloud just wants its house back.</p>
+          <p class="reel-card-error" hidden>The video couldn’t load. Try the MP4 download below.</p>
+          <div class="reel-card-links"><a href="./assets/reels/last-umbrella/reel.mp4?v=f0e9b6bb40" download="last-umbrella.mp4">Download MP4 <span aria-hidden="true">↓</span></a><a href="https://github.com/alexkubica/reelkit/blob/main/docs/assets/reels/last-umbrella/CREDITS.md">Story &amp; credits <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="reel-card" id="poop-emoji" data-category="Design">
+          <div class="reel-card-meta"><span class="reel-category">Design</span><span aria-label="Duration: 29 seconds">0:29</span></div>
+          <video controls playsinline preload="metadata" poster="./assets/poster.jpg?v=7fe1b6a81c" aria-labelledby="title-poop-emoji">
+            <source src="./assets/demo.mp4?v=2c33431c3c" type="video/mp4">
+            Your browser cannot play this video. <a href="./assets/demo.mp4?v=2c33431c3c">Download the MP4.</a>
+          </video>
+          <h2 id="title-poop-emoji"><a href="#poop-emoji">Why does the poop emoji look like that?</a></h2>
+          <p class="reel-card-description">A suspicious swirl, a confident dessert, and an unexpected design family tree.</p>
+          <p class="reel-card-error" hidden>The video couldn’t load. Try the MP4 download below.</p>
+          <div class="reel-card-links"><a href="./assets/demo.mp4?v=2c33431c3c" download="poop-emoji.mp4">Download MP4 <span aria-hidden="true">↓</span></a><a href="https://github.com/alexkubica/reelkit/blob/main/docs/assets/FEATURED-REEL.md">Story &amp; credits <span aria-hidden="true">↗</span></a></div>
+        </article>
+<!-- reel-cards:end -->
+      </div>
+    </section>
+    <aside class="library-outro"><div><p class="eyebrow">A STORY OF YOUR OWN?</p><h2>Make the next detour.</h2><p>Bring an idea, give it a voice, and make something worth watching.</p></div><a class="button button-primary" href="./#start">Make a reel <span aria-hidden="true">↗</span></a></aside>
+  </main>
+  <footer class="site-footer shell"><a class="wordmark footer-wordmark" href="./"><img src="./assets/mark.svg" width="27" height="27" alt=""><span>reelkit.</span></a><p>Made for the story.</p><div><a href="./">The toolkit</a><a href="https://github.com/alexkubica/reelkit">GitHub</a><a href="https://github.com/alexkubica/reelkit/issues">Feedback</a></div></footer>
+</body>
+</html>

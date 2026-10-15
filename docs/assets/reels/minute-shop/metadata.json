@@ -1,0 +1,12 @@
+{
+  "id": "minute-shop",
+  "title": "The Shop That Sold Extra Minutes",
+  "category": "Fiction",
+  "description": "A clockmaker sells extra minutes. A customer discovers what his tiny brass key actually changes.",
+  "duration": 27.8,
+  "language": "en",
+  "voice": "en-US-EmmaMultilingualNeural",
+  "scenes": 5,
+  "skill": "create-reel",
+  "sources": []
+}
