@@ -10,6 +10,8 @@ ReelKit turns a small JSON project, local illustrations, and optional narration 
 
 The included example renders **offline and without an API key**. It is intentionally silent. AI research, image generation, and speech are separate authoring steps; the renderer never contacts an online service.
 
+The [website's featured reel](https://alexkubica.github.io/reelkit/) is **“Why does the poop emoji look like that?”**: a 27-second comedy explainer with Hebrew narration, centered Hebrew captions, and optional English CC. Click **Play with sound** to hear it. This finished production predates the portable renderer and shows the creative direction that inspired ReelKit; the bundled starter remains a separate, reproducible offline example. See [featured reel credits](docs/assets/FEATURED-REEL.md).
+
 ## What it does
 
 - Full-bleed illustrations with a gentle camera move, rather than repeated title-card layouts.

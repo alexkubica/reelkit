@@ -6,8 +6,10 @@ robot observatory, a mechanical conveyor, and alternative paths to a calendar.
 They contain no client material, personal photographs, logos, or private data.
 They are distributed under this repository's MIT license.
 
-The public MP4 demo is a silent render of the packaged English example. Caption timing in both
+The packaged examples render silently without narration. Caption timing in both
 language examples is an illustrative estimate, not recorded speech alignment.
+The website's featured reel is a separate production with its own
+[credits](https://github.com/alexkubica/reelkit/blob/main/docs/assets/FEATURED-REEL.md).
 
 Bundled Noto fonts have a separate SIL OFL license and attribution in the repository's `src/reelkit/assets/fonts/` directory. No proprietary system fonts or font downloads are needed at runtime.
 

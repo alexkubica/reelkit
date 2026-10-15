@@ -13,8 +13,8 @@
   <meta property="og:image:height" content="630">
   <meta property="og:url" content="https://alexkubica.github.io/reelkit/">
   <link rel="icon" href="./assets/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css">
-  <script src="./app.js" defer></script>
+  <link rel="stylesheet" href="./styles.css?v=poop-reel-1">
+  <script src="./app.js?v=poop-reel-1" defer></script>
   <title>ReelKit — Short videos. Clear stories.</title>
 </head>
 <body>
@@ -35,15 +35,18 @@
       </div>
 
       <div class="hero-stage">
-        <div class="stage-topline"><span>01 / THE FINISHED REEL</span><span class="stage-format">9:16</span></div>
+        <div class="stage-topline"><span>01 / THE FEATURED REEL</span><span class="stage-format">9:16</span></div>
+        <div class="featured-reel"><h2 id="featured-reel-title">Why does the poop emoji look like that?</h2><p id="demo-details">Hebrew narration &amp; captions · English CC available</p></div>
+        <div class="playback-controls"><button class="play-with-sound" id="play-with-sound" type="button" aria-controls="demo-video" hidden><svg viewBox="0 0 20 20" aria-hidden="true"><path class="play-symbol" d="M6 3.5 17 10 6 16.5Z"/><path class="pause-symbol" d="M5 4h4v12H5zm6 0h4v12h-4z"/></svg><span id="play-with-sound-label">Play with sound</span></button><p class="playback-status" id="demo-playback-status" role="status" aria-live="polite" aria-atomic="true">Press play to hear the narration.</p></div>
         <div class="video-frame">
-          <video id="demo-video" class="demo-video" controls playsinline preload="metadata" poster="./assets/poster.jpg" aria-label="Illustrated ReelKit demo">
-            <source src="./assets/demo.mp4" type="video/mp4">
-            Your browser cannot play this video. <a href="./assets/demo.mp4">Download the MP4 demo.</a>
+          <video id="demo-video" class="demo-video" controls playsinline preload="metadata" poster="./assets/poster.jpg?v=poop-reel-1" aria-labelledby="featured-reel-title" aria-describedby="demo-details">
+            <source src="./assets/demo.mp4?v=poop-reel-1" type="video/mp4">
+            <track kind="subtitles" src="./assets/demo.en.vtt?v=poop-reel-1" srclang="en" label="English">
+            Your browser cannot play this video. <a href="./assets/demo.mp4?v=poop-reel-1">Download the MP4 demo.</a>
           </video>
-          <div class="video-fallback" id="video-fallback" hidden><img src="./assets/story.svg" alt="An illustrated robot checking off a task"><p>A little story.<br>A clear point.</p><span>Preview unavailable · <a href="https://github.com/alexkubica/reelkit">Explore the project</a></span></div>
+          <div class="video-fallback" id="video-fallback" hidden><img src="./assets/poster.jpg?v=poop-reel-1" alt="Cartoon poop and ice cream in the featured reel"><p>Preview<br>unavailable.</p><span><a href="./assets/demo.mp4?v=poop-reel-1" download>Download the MP4</a> to watch the reel.</span></div>
         </div>
-        <div class="stage-bottomline"><span><i aria-hidden="true"></i> A REAL RENDER, NOT A MOCKUP</span><a href="./assets/demo.mp4" download>Download demo <span aria-hidden="true">↓</span></a></div>
+        <div class="stage-bottomline"><span><i aria-hidden="true"></i> A REAL RENDER, NOT A MOCKUP</span><a href="./assets/demo.mp4?v=poop-reel-1" download>Download demo <span aria-hidden="true">↓</span></a><a href="https://github.com/alexkubica/reelkit/blob/main/docs/assets/FEATURED-REEL.md">Reel credits <span aria-hidden="true">↗</span></a></div>
         <div class="margin-note"><svg viewBox="0 0 70 52" aria-hidden="true"><path d="M65 4C56 33 36 45 8 38m0 0 10-9M8 38l13 7"/></svg><span>Press play.<br>See it move.</span></div>
       </div>
     </section>
